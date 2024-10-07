@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.transaction-item {
+  margin: 0px;
+  height: 34px;
+  width: 268px;
+  padding: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+  font-size: 12px;
+  border-top: 0px;
+}
+.delete-btn {
+  height: 12px;
+  width: 12px;
+  background-color: #ffffff;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delete-icon {
+  height: 12px;
+  width: 12px;
+}

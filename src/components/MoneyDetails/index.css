@@ -1,0 +1,68 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.money-deails-list {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  height: 80px;
+  width: 520px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.money-card {
+  margin: 0px;
+  height: 80px;
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 10px;
+}
+.item-name {
+  font-size: 12px;
+  color: #7e858e;
+  font-weight: bold;
+}
+.cash {
+  font-size: 18px;
+  color: #334155;
+  font-weight: bold;
+}
+.list-img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.info-container {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.balance-item {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.income-item {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.expenses-item {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+.item-name {
+  margin: 0px;
+  margin-bottom: 4px;
+}
+.cash {
+  margin: 0px;
+}
